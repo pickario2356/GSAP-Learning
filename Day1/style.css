@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #111;
+  color: rgb(210, 210, 210);
+}
+#box1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(164, 0, 0);
+}
+#box2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0, 164, 55);
+}
+#box3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(164, 131, 0);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding:10px
+}
+.nav .optn {
+  display: flex;
+}
+.nav .optn h4 {
+  padding: 10px 20px;
+}
