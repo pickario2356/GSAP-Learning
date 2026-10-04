@@ -5,8 +5,11 @@
 }
 html,
 body {
-    height:100%;
-    width:100%;
+  height: 100%;
+  width: 100%;
+}
+body{
+    overflow-x: hidden;
 }
 
 /* #page1{
@@ -36,3 +39,23 @@ body {
     height: 150px;
     width:150px
 } */
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(103, 178, 203);
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+#page2 h1{
+    color:black;
+    padding:10px;
+    font-size: 40vw;
+}
