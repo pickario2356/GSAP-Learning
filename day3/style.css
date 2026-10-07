@@ -14,7 +14,7 @@ body{
     background-color: #111;
 }
 #string{
-    background-color: maroon;
-    height: 200px;
+    /* background-color: rgb(128, 0, 115); */
+    height: 400px;
     width: 100%;
 }
