@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cursor {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius: 100%;
+  position: fixed;
+}
+#image {
+  background-color: pink;
+  height: 30vh;
+  width: 70vw;
+}
